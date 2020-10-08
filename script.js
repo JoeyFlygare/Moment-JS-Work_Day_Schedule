@@ -34,15 +34,15 @@ $(document).ready(function(){
 
     $("button").on("click", function(){
 
-        localStorage.setItem("9AM", ($9amText()))
-        localStorage.setItem("10AM", ($10amText())) 
-        localStorage.setItem("11AM", ($11amText()))
-        localStorage.setItem("12PM", ($12pmText()))
-        localStorage.setItem("13PM", ($1pmText()))
-        localStorage.setItem("14PM", ($2pmText()))
-        localStorage.setItem("15PM", ($3pmText()))
-        localStorage.setItem("16PM", ($4pmText()))
-        localStorage.setItem("17PM", ($5pmText()))
+        localStorage.setItem("9AM", ($9amText.val()))
+        localStorage.setItem("10AM", ($10amText.val())) 
+        localStorage.setItem("11AM", ($11amText.val()))
+        localStorage.setItem("12PM", ($12pmText.val()))
+        localStorage.setItem("13PM", ($1pmText.val()))
+        localStorage.setItem("14PM", ($2pmText.val()))
+        localStorage.setItem("15PM", ($3pmText.val()))
+        localStorage.setItem("16PM", ($4pmText.val()))
+        localStorage.setItem("17PM", ($5pmText.val()))
 
     })
     
