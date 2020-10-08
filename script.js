@@ -50,7 +50,7 @@ $(document).ready(function(){
     $("#10amText").append(localStorage.getItem("10AM"));
     $("#11amText").append(localStorage.getItem("11AM"));
     $("#12pmText").append(localStorage.getItem("12PM"));
-    $("#1PmText").append(localStorage.getItem("13PM"));
+    $("#1pmText").append(localStorage.getItem("13PM"));
     $("#2pmText").append(localStorage.getItem("14PM"));
     $("#3pmText").append(localStorage.getItem("15PM"));
     $("#4pmText").append(localStorage.getItem("16PM"));

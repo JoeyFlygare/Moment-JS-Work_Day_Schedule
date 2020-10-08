@@ -4,14 +4,14 @@ body {
   line-height: 1;
 }
 
-/* textarea{
+textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #000000; 
   border-left: 1px solid black;
   padding: 10px;
-} */
+} 
 
 .jumbotron {
   text-align: center;
@@ -55,10 +55,6 @@ body {
 .future {
   background-color: #77dd77;
   color: white;
-}
-
-#9amText {
-  border-radius: 5px;
 }
 
 .saveBtn {
